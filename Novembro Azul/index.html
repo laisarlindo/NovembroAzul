@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="pginicial.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novembro Azul</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <button class="mr-4 text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <h1 class="text-xl font-bold text-blue-600">Novembro Azul</h1>
+            </div>
+            <div class="relative">
+                <input type="text" placeholder="Pesquisar" class="border rounded-md py-1 px-3 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+            <img src="novazul2.jpg" alt="Novembro Azul" class="w-full h-64 object-cover">
+        </div>
+
+        <section class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-bold mb-4">Mês de conscientização sobre a saúde do homem</h2>
+            <p class="text-gray-700 mb-6">
+                Iniciado em 2011 pelo Instituto Lado a Lado pela Vida, a campanha "novembro azul" tem o objetivo de alertar para a importância do diagnóstico precoce do câncer de próstata, o mais frequente entre os homens brasileiros, atrás apenas do câncer de pele.
+            </p>
+
+            <h3 class="text-xl font-semibold mb-4">Vamos conhecer mais sobre?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <a href="sintomas.html" class="font-semibold py-2 px-4 rounded">
+                    Sintomas
+                </a>
+                <a href="tratamentos.html" class="font-semibold py-2 px-4 rounded">
+                    Tratamentos
+                </a>
+                <a href="clinicas.html" class=" font-semibold py-2 px-4 rounded">
+                    Clínicas
+                </a>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

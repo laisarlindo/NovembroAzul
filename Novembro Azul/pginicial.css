@@ -1,0 +1,11 @@
+main{
+    background-color:rgb(208, 230, 249);
+}
+
+a{
+    background-color: rgb(121, 186, 237); 
+}
+
+a:hover{
+    background-color: rgb(3, 118, 220);
+}

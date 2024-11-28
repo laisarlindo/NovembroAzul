@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="clinicas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novembro Azul - Clínicas na região</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <button class="mr-4 text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <h1 class="text-xl font-bold text-blue-600 hover:text-blue-800"><a href="index.html">Novembro Azul</a></h1>
+            </div>
+            <div class="relative">
+                <input type="text" placeholder="Pesquisar" class="pl-3 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button class="absolute right-3 top-1/2 transform -translate-y-1/2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section>
+            <h2 class="text-xl font-semibold mb-4 bg-blue-500 text-white py-2 px-4 rounded">
+                <a >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Clínicas na região
+                </a>
+            </h2>
+
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-lg font-semibold mb-4">Clínicas sorocabanas que oferecem apoio e tratamentos:</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="col-span-2">
+                        <ul class="space-y-4">
+                            <li>
+                                <h4 class="font-semibold">Biolabor Medicina Diagnóstica</h4>
+                                <p>Av. Barão de Tatuí, 560 - Jardim Vergueiro, 18030-000.</p>
+                            </li>
+                            <li>
+                                <h4 class="font-semibold">Clínica da Cidade</h4>
+                                <p>Av. Barão de Tatuí, 514 - Jardim Vergueiro, 18030-000.</p>
+                            </li>
+                            <li>
+                                <h4 class="font-semibold">Centro Oncológico Devita</h4>
+                                <p>Av. Roberto Simonsen, 310, 18090-000.</p>
+                            </li>
+                        </ul>
+                        
+                        <div class="mt-6">
+                            <button class="bg-blue-500 text-white py-2 px-4 rounded ">
+                                SUS - Buscar a mais próxima da sua residência
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
